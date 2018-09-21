@@ -3,16 +3,38 @@
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  border-bottom: solid black;
+  border-bottom: solid 4px black;
   text-align: center;
   width: 100%;
+  @media (max-width: 1000px) {
+    max-width: 100%;
+    height: auto;
+  }
   h2 {
     font-family: 'Marcellus', serif;
-    font-size: 100px;
+    font-size: 10rem;
     margin-bottom: $s-size;
+    @media (max-width: 1000px) {
+      font-size: 8rem;
+      margin-bottom: $m-size;
+      margin-top: 10rem;
+    }
+    @media (max-width: 750px) {
+      font-size: 4.5rem;
+    }
   }
   p {
-    font-size: 60px;
+    font-size: 6rem;
     font-family: 'Crimson Text', serif;
+    @media (max-width: 1360px) {
+      font-size: 5.5rem;
+    }
+    @media (max-width: 1000px) {
+      font-size: 4rem;
+      margin-bottom: 16rem;
+    }
+    @media (max-width: 750px) {
+      font-size: 3rem;
+    }
   }
 }
