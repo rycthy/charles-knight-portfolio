@@ -1,3 +1,1 @@
-# Git commands
-
-test
+Portfolio site for Charles Knight (freelance, in development)
