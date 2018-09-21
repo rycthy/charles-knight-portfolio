@@ -15,8 +15,6 @@ body {
   color: black;
   font-size: $m-size;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 button {
@@ -51,12 +49,13 @@ button:disabled {
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  margin: 0;
   h2 {
+    font-family: 'Marcellus', serif;
     font-size: 100px;
   }
   p {
-    font-size: 50px;
-    font-weight: 100;
+    font-size: 60px;
+    font-family: 'Crimson Text', serif;
+    margin: 0;
   }
 }

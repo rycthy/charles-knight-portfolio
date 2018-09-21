@@ -7,8 +7,7 @@ const Main = () => (
     <div className="container">
       <div className="content__top">
         <h2>Hi, I'm Charles</h2>
-        <p>I do stuff, I do it real good. You're on my site to see the stuff. The good stuff. Mmmm, that's the
-          stuff.</p>
+        <p>Design Director at Work & Co, specializing in digital design and product strategy. You can find me on Instagram, Flickr, LinkedIn, AngelList, Twitter & e-mail.</p>
       </div>
       <div className="content">
         <h1>Bio</h1>
