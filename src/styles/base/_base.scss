@@ -18,7 +18,12 @@ body {
   background: rgb(255,239,239);
   color: black;
   font-size: $m-size;
-  font-family: 'Crimson Text', serif;
+  p {
+    font-family: 'Crimson Text', serif;
+  }
+  h2 {
+    font-family: 'Marcellus', serif;
+  }
 }
 
 button {
