@@ -5,11 +5,11 @@ const Main = () => (
   <div>
     <Frame />
     <div className="container">
-      <div className="content__top">
-        <h2>Hi, I'm Charles</h2>
-        <p>Design Director at Work & Co, specializing in digital design and product strategy. You can find me on Instagram, Flickr, LinkedIn, AngelList, Twitter & e-mail.</p>
-      </div>
       <div className="content">
+        <div className="content__top">
+          <h2>Hi, I'm Charles</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla risus, scelerisque congue. Proin id erat in ante & consectetur dictum sit amet non tortor.</p>
+        </div>
         <h1>Bio</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla risus, scelerisque congue
             eleifend vel, dapibus nec dui. Proin id erat in ante consectetur dictum sit amet non tortor.
