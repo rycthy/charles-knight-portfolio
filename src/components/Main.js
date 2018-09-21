@@ -5,9 +5,8 @@ const Main = () => (
   <div>
     <Frame />
     <div className="container">
-      <div className="content">
-        <div className="content__top">
-          <h2>Hi, I'm Charles</h2>
+        <div className="top">
+          <h2>Hi, I'm Charles.</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla risus, scelerisque congue. Proin id erat in ante & consectetur dictum sit amet non tortor.</p>
         </div>
         <h1>Bio</h1>
@@ -44,7 +43,6 @@ const Main = () => (
             non purus molestie, vitae aliquet dolor posuere. Nulla sagittis libero a interdum venenatis. Aenean
             posuere, lorem pulvinar tempor ultricies, dolor nulla vehicula sapien, sit amet iaculis augue sem
           quis orci. Nulla tempor lectus ut ipsum dapibus, ac accumsan orci varius.</p>
-      </div>
     </div>
   </div>
 );
