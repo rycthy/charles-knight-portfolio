@@ -1,13 +1,9 @@
 import React from 'react';
+import Frame from './Frame';
 
 const Main = () => (
   <div>
-    <div className="frame">
-      <div className="frame__top"></div>
-      <div className="frame__bottom"></div>
-      <div className="frame__left"></div>
-      <div className="frame__right"></div>
-    </div>
+    <Frame />
     <div className="container">
       <div className="content__top">
         <h2>Hi, I'm Charles</h2>
