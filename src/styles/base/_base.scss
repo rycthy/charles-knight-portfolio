@@ -17,6 +17,7 @@ body {
   font-size: $m-size;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 button {
@@ -61,7 +62,7 @@ button:disabled {
   }
 }
 .frame-top {
-  border-bottom: solid black;
+  border-bottom: solid 4px;
   position: fixed;
   top: 0;
   left: 2rem;
@@ -70,7 +71,7 @@ button:disabled {
   background-color: rgba(255,239,239,0.9);
 }
 .frame-bottom {
-  border-top: solid black;
+  border-top: solid 4px;
   position: fixed;
   left: 2rem;
   right: 2rem;
@@ -79,18 +80,18 @@ button:disabled {
   background-color: rgba(255,239,239,0.9);
 }
 .frame-left {
-  border-right: solid black;
+  border-right: solid 4px;
   position: fixed;
+  padding-left: 2rem;
   bottom: 4rem;
   top: 4rem;
   left: 2rem;
-  padding: 2rem;
   background-color: rgba(255,239,239,1);
 }
 .frame-right {
-  border-left: solid black;
-  padding: 2rem;
+  border-left: solid 4px;
   position: fixed;
+  padding-right: 2rem;
   bottom: 4rem;
   top: 4rem;
   right: 2rem;
