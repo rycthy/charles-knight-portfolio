@@ -15,8 +15,8 @@ html {
   }
 
 body {
-  background: rgb(255,239,239);
-  color: black;
+  background: $cream;//rgb(255,239,239);
+  color: $off-black;
   font-size: $m-size;
   p {
     font-family: 'Crimson Text', serif;
