@@ -1,0 +1,11 @@
+.footer {
+  margin-left: 8%;
+  margin-bottom: 15%;
+  margin-top: 10%;
+  @media (max-width: 1000px) {
+    margin-left: 5%;
+  }
+  @media (max-width: 750px) {
+    margin-left: 8%;
+  }
+}
