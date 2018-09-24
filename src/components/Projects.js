@@ -1,7 +1,8 @@
 import React from 'react';
 
 export default () => (
-  <div><h2>projects</h2>
+  <div className="container__item">
+    <h2>Projects</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla risus, scelerisque congue
         eleifend vel, dapibus nec dui. Proin id erat in ante consectetur dictum sit amet non tortor.
         Pellentesque eget arcu pharetra, cursus lectus id, bibendum ex. Mauris gravida, nisl et consectetur

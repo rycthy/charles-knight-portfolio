@@ -1,11 +1,9 @@
 .top {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
   border-bottom: solid 4px;
   text-align: center;
-  width: 100%;
   @media (max-width: 1000px) {
     max-width: 100%;
     height: auto;

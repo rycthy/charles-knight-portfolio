@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default () => (
-  <div>
+  <div className="container__item">
     <h2>Bio</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla risus, scelerisque congue
         eleifend vel, dapibus nec dui. Proin id erat in ante consectetur dictum sit amet non tortor.
