@@ -3,6 +3,7 @@ import Frame from './Frame';
 import Top from './Top';
 import Bio from './Bio';
 import Projects from './Projects';
+import Footer from './Footer';
 
 export default () => (
 	<div>
@@ -12,5 +13,6 @@ export default () => (
 			<Bio />
 			<Projects />
 		</div>
+		<Footer />
 	</div>
 );
