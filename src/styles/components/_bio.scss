@@ -1,0 +1,37 @@
+#bio {
+  @media (max-width: 750px) {
+    flex-direction: column;
+  }
+}
+
+#portrait {
+  width: 30%;
+  justify-content: center;
+  padding-right: 5%;
+  @media (max-width: 750px) {
+    width: 100%;
+    padding-right: 0;
+  }
+  img {
+    height: 20rem;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px #231F20;
+    -moz-box-shadow: 3px 3px 3px #231F20;
+    box-shadow: 3px 3px 3px #231F20;
+  }
+}
+#bio-copy {
+  width: 70%;
+  font-size: 3rem;
+  text-align: left;
+  padding-left: 5%;
+  border-left: solid 1px;
+  @media (max-width: 750px) {
+    width: 100%;
+    border-left: none;
+    padding-left: 0;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}

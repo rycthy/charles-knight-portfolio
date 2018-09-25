@@ -22,9 +22,12 @@
 .container__item {
   display: flex;
   width: 100%;
-  margin-bottom: 16rem;
-  justify-content: center;
+  margin-bottom: 10rem;
+  justify-content: space-between;
 }
 .column {
-  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
