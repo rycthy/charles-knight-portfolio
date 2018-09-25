@@ -3,12 +3,32 @@
   font-size: 6rem;
   padding-bottom: 5%;
   border-bottom: solid 4px;
+  @media (max-width: 750px) {
+    font-size: 4rem;
+  }
 }
-#projects-list {
+#projects {
   margin-bottom: 0;
   justify-content: center;
   font-size: 2rem;
+  justify-content: space-between;
+  flex-direction: column;
 }
-#projects-list__item {
-
+#projects__item {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-bottom: 8%;
+  margin-bottom: 8%;
+  border-bottom: solid 1px;
+  h2 {
+    margin-bottom: 2%;
+  }
+}
+#image-placeholder {
+  width: 100%;
+  height: 200px;
+  background: $grey;
+  align-self: left;
+  margin-bottom: 2%;
 }
