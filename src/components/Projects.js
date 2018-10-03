@@ -13,7 +13,7 @@ export default () => (
         description={"brief description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus magna id finibus commodo. Fusce et nulla vel odio ornare eleifend a in sapien. Nunc fringilla nisl vel dui elementum, ac luctus magna sagittis. Proin sed elementum sapien. In efficitur in est ac commodo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam feugiat rutrum elementum. Praesent pellentesque tortor lorem, rutrum accumsan justo faucibus in."}
       />
       <Project
-        image={"https://res.cloudinary.com/dnqc6pmtp/image/upload/v1538596428/charles-knight/isaia-santoni-header.png"}
+        image={"https://res.cloudinary.com/dnqc6pmtp/image/upload/v1538598553/charles-knight/valentines-3.png"}
         title={"Valentines?"}
         description={"brief description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus magna id finibus commodo. Fusce et nulla vel odio ornare eleifend a in sapien. Nunc fringilla nisl vel dui elementum, ac luctus magna sagittis. Proin sed elementum sapien. In efficitur in est ac commodo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam feugiat rutrum elementum. Praesent pellentesque tortor lorem, rutrum accumsan justo faucibus in."}
       />

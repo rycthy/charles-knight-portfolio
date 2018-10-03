@@ -29,12 +29,9 @@
   width: 100%;
   align-self: left;
   margin-bottom: 2%;
+  max-height: 240px;
+  overflow: hidden;
   img {
-    width: 100%;
-    &:hover {
-      -webkit-filter: none;
-      filter: none;
-      cursor: pointer;
-    }
+    max-width: 100%;
   }
 }
