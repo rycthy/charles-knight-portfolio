@@ -7,5 +7,7 @@ export default (props) => (
     </div>
     <h2>{props.title}</h2>
     <p>{props.description}</p>
+    <br />
+    <p><a target="_blank" href={props.link}>{props.linkText}</a></p>
   </div>
 )
